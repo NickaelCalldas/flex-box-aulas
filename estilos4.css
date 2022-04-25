@@ -1,0 +1,47 @@
+.container-flex{
+	max-width:400px;
+	display:flex;
+	border: 1px solid black;
+	margin: 0px;
+	
+}
+.container-flex2{
+	height:500px;
+	display:flex;
+	border: 1px solid black;
+	margin: 0px;
+	flex-direction:column;
+	max-width:400px;
+	
+	
+}
+.item{
+	background-color: blueviolet;
+	margin:5px;
+	text-align: center;
+	color:white;
+	padding:10px;
+}
+.item2{
+	background-color: blueviolet;
+	margin:5px;
+	text-align: center;
+	color:white;
+	padding:10px;
+	min-height:50px;
+}
+.flex-start{
+	justify-content:flex-start;
+}
+.flex-end{
+	justify-content:flex-end;
+}
+.flex-center{
+	justify-content:center;
+}
+.space-between{
+	justify-content:space-between;
+}
+.space-around{
+	justify-content:space-around;
+}

@@ -1,0 +1,46 @@
+.container{
+	margin:0 auto;
+	width:800px;
+	color:white;
+}
+.container #bloco1 ul{
+	display:flex;
+	flex-direction:row;
+}
+.container #bloco2 ul{
+	display:flex;
+	flex-direction:row-reverse;
+}
+.container #bloco3 ul{
+	display:flex;
+	flex-direction:column;
+}
+.container #bloco4 ul{
+	display:flex;
+	flex-direction:column-reverse;
+}
+ul{
+	list-style="none";
+}
+li{
+	width:20px;
+	height:20px;
+	text-align:center;
+	padding:10px;
+	font-size:20px;
+	margin:5px;
+}
+
+.container #bloco1 li{
+	background-color:magenta;
+	
+}
+.container #bloco2 li{
+	background-color:blue;
+}
+.container #bloco3 li{
+	background-color:red;
+}
+.container #bloco4 li{
+	background-color:black;
+}

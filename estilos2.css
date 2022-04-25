@@ -1,0 +1,33 @@
+.flex-container{
+	display:flex;
+	height:150px;
+	border:2px solid black;
+	max-width:300px;
+	color:white;
+	flex-direction:row-reverse;
+}
+.item{
+	font-size:24px;
+	height:50%;
+	text-align:center;
+	width:100px;
+	min-width:90px;
+}
+.nowrap{
+	flex-wrap:nowrap;
+}
+.wrap{
+	flex-wrap:wrap;
+}
+.wrap-reverse{
+	flex-wrap:wrap-reverse;
+}
+.blue{
+	background-color:blue;
+}
+.green{
+	background-color:green;
+}
+.orange{
+	background-color:orange;
+}
