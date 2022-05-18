@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>aula-flex-basis</title>
+		
+		<style>
+			.container{
+				display:flex;
+				max-width:500px;
+				border:1px solid black;
+			}
+			.item{
+				background-color:blue;
+				color:white;
+				text-align:center;
+				margin:5px;
+			}
+			.w100{
+				flex-basis: 100px;
+			}
+			.b-auto{
+				flex-basis:auto;
+			}
+			.fg-0{
+				flex-grow:0;
+			}
+			.fg-1{
+				flex-grow:1;
+			}
+			.fg-2{
+				flex-grow:2;
+			}
+			.b-0{
+				flex-basis:0;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Basis Auto</h2>
+		<div class="container">
+			<div class="item b-auto fg-1">A</div>
+			<div class="item b-auto fg-1">BBBBB</div>
+			<div class="item b-auto fg-1">CC</div>
+			<div class="item b-auto fg-2">DDDDDDD</div>
+		
+		</div>
+		<h2>Basis em 0</h2>
+		<div class="container">
+			<div class="item b-0 fg-1">A</div>
+			<div class="item b-0 fg-1">BBBBB</div>
+			<div class="item b-0 fg-1">CC</div>
+			<div class="item b-0 fg-2">DDDDDDD</div>
+		
+		</div>
+		<h2>Basis + width</h2>
+		<div class="container">
+			<div class="item w100 fg-1">Aaaa</div>
+			<div class="item w100 fg-1">BBBBB</div>
+			<div class="item w100 fg-2">CC</div>
+			<div class="item w100 fg-2">DDDDDDD</div>
+		
+		</div>
+	</body>
+</html>
